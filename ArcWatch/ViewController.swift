@@ -231,11 +231,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     // MARK: - Analog clock displaying.
     
     func initAnalogClock(){
-
-//        self.analogClockView.setClockBackgroundImage(UIImage(named: "clockc.png")?.CGImage)
-//        self.analogClockView.setHourHandImage(UIImage(named: "rHourHand.png")?.CGImage)
-//        self.analogClockView.setMinHandImage(UIImage(named: "rMinHand.png")?.CGImage)
-//        self.analogClockView.setSecHandImage(UIImage(named: "rSecondHand.png")?.CGImage)
         
         self.analogClockView.setClockBackgroundImage(UIImage(named: "iClock600.png")?.CGImage)
         self.analogClockView.setHourHandImage(UIImage(named: "hr.png")?.CGImage)
